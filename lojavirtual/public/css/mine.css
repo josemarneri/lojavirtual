@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/03/2017, 13:39:44
+    Author     : neri
+*/
+
+#master{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+    padding: 5px;
+    position: relative;
+}
+
+#header-bar{
+    min-height: 100px;
+    background-color: gray;
+    position: relative;
+}
+
+#nave-bar{
+    height: 50px;
+    position: relative;
+    background-color: magenta;
+}
+
+#body-space{
+    width: auto;
+    height: auto;
+    background-color: blue;
+    position: relative;
+    
+}
+
+#contain-space{
+    float: right;
+    width: 79%;
+    min-width: 300px;
+    max-height: 700px;
+    min-height: 500px;
+    height: auto;
+    padding: 2%;
+    background-color: green;
+    overflow: auto;
+    margin-bottom: 2px;
+}
+
+#left-menu{
+    min-height: 500px;
+    max-height: 700px;
+    height: auto;
+    width: 20%;
+    float: left;
+    background-color: yellow;
+    margin-bottom: 2px;
+}
+
+#footer-space{
+    position:relative;
+    margin-top: -50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:auto;
+    height: 50px;
+    clear: both;
+    background-color: black;
+}
+
+.pop{   
+    position:absolute; 
+    z-index:1000; 
+    left: 300px;
+    top: 30px;
+    display: none;    
+}
+
+.loginBar{
+    float: right;
+}
+
+.logoBar{
+    float: left;
+}
+
